@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portal</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="LOGIN/estilo.css">
+    <link rel="stylesheet" href="LOGIN/login.html">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>SysVentas</h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Products</a>
+                    <a href="#">Localisation</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>SysVentas</h2>
+                    <a href="LOGIN/login.html" class="btn bordes">Ingresa</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">--------</p>
+            <h1>Portal SysVentas</h1>
+            <p>Para poder disfrutar de todos estos servicios, es necesario estar registrado en el servicio mediante la
+                creación de una cuenta gratuita, a la que se vinculan los videojuegos comprados por el jugador. Estos
+                juegos pueden ser tanto los juegos que se ofrecen para la compra en la propia plataforma como ciertos
+                juegos comprados en tiendas físicas. Contenemos funciones sociales como la gestión de perfiles, la
+                conexión en red con amigos a través del chat, la transmisión en tiempo real a través de Twitch y el uso
+                compartido de la biblioteca de juegos y la integración en la comunidad con sitios como Facebook, Xbox
+                Live, PlayStation Network y Nintendo Network.
+            </p>
+            <a href="https://store.steampowered.com/?l=spanish" class="btn btn-rojo">Saber Mas</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/nosotros1.jpg" alt="videojuegos1">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/nosotros2.jpg" alt="videojuegos2">
+                <img data-src="assets/img/nosotros3.jpg" alt="videojuegos3">
+            </div>
+        </div>
+    </div>
+
+    <section class="catalogo contenedor">
+        <h2 class="texto-productos">Productos</h2>
+        <div class="botones-productos">
+            <button class="todos btn btn-morado">Todos</button>
+            <button class="controles btn btn-morado">Controles</button>
+            <button class="consolas btn btn-morado">Consolas</button>
+            <button class="perifericos btn btn-morado">Perifericos</button>
+            <button class="seriales btn btn-morado">Keys</button>
+        </div>
+        <div class="productos">
+            <div class="producto" data-producto="controles">
+                <img data-src="assets/img/control1.jpg" alt="play">
+                <h2>DualShock 4</h2>
+                <p>Es el primer mando de la línea DualShock en cambiar significativamente su diseño, presentando un
+                    diseño más redondeado que sus predecesores.</p>
+                <div class="precio">
+                    <p>$230.000</p>
+                    <button><i class="fas fa-shopping-basket">
+                        <a href="#"></a>
+                    </i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="controles">
+                <img data-src="assets/img/control3.jpg" alt="propio">
+                <h2>Xbox One</h2>
+                <p>Prácticamente todos los usuarios de consola y mando en PC estarán de acuerdo en que el mando Xbox
+                    Elite es el mejor en todos los sentidos: desempeño, rendimiento, calidad de materiales, autonomía,
+                    personalización... En todos, vaya.</p>
+                <div class="precio">
+                    <p>$300.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="controles">
+                <img data-src="assets/img/control2.jpg" alt="xbox">
+                <h2>Personalizado</h2>
+                <p>Ajusta la sensibilidad del gatillo y el joystick derecho, cambia la asignación de los controles e
+                    implementa macros en las cuatro teclas de atajo, perfectas para obtener la ventaja en juegos de
+                    pelea.</p>
+                <div class="precio">
+                    <p>$190.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="consolas">
+                <img data-src="assets/img/consola1.jpg" alt="play">
+                <h2>PlayStation 5</h2>
+                <p>Las principales características de hardware de la PlayStation 5 incluyen una unidad de estado sólido
+                    personalizada para transmisión de datos de alta velocidad para permitir mejoras significativas en el
+                    rendimiento del almacenamiento, una GPU AMD capaz de mostrar una resolución de 4K de hasta 120
+                    cuadros por segundo, trazado de rayos acelerado por hardware para realismo, iluminación y reflejos y
+                    el motor Tempest que permite efectos de audio 3D acelerados por hardware.</p>
+                <div class="precio">
+                    <p>$3.500.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="consolas">
+                <img data-src="assets/img/consola2.jpg" alt="xbox">
+                <h2>Xbox Series X</h2>
+                <p>Algunas de sus características incluyen la incorporación de una CPU de 8 núcleos y 16 hilos de
+                    ejecución a 3,8 GHz de la arquitectura Zen 2 de AMD y una GPU de 52 unidades de cómputo de la
+                    arquitectura de gráficos RDNA 2, que ofrece hasta 12 teraflops de potencia.</p>
+                <div class="precio">
+                    <p>$2.500.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="consolas">
+                <img data-src="assets/img/consola3.jpg" alt="nintendo">
+                <h2>Nintendo Switch</h2>
+                <p>Nintendo Switch es la consola de Nintendo híbrida entre portátil y sobremesa, incorpora dos
+                    controladores llamados Joy Con que se pueden desacoplar de la consola para juegos multijugador local
+                    como el Mario Kart, también tienen giroscopio, cámara infrarroja, NFC y vibración HD tecnologías que
+                    son aprovechadas por otros juegos, como 1,2,3 Switch, que acompañó a la consola en su lanzamiento.
+                </p>
+                <div class="precio">
+                    <p>$1.250.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="perifericos">
+                <img data-src="assets/img/perifericos1.jpg" alt="casco">
+                <h2>Cascos HyperX</h2>
+                <p>HyperX Cloud Stinger</p>
+                <div class="precio">
+                    <p>$120.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="perifericos">
+                <img data-src="assets/img/perifericos2.jpg" alt="mouse">
+                <h2>Mouse Gamer</h2>
+                <p>Logitech G Series Lightsync G203 negro</p>
+                <div class="precio">
+                    <p>$100.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="perifericos">
+                <img data-src="assets/img/perifericos3.jpg" alt="teclado">
+                <h2>Teclado Gamer</h2>
+                <p>Logitech K380 QWERTY</p>
+                <div class="precio">
+                    <p>$100.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="seriales">
+                <img data-src="assets/img/serial1.jpg" alt="windows">
+                <h2>Windows 10</h2>
+                <p>Key para windows 10 Home.</p>
+                <div class="precio">
+                    <p>$50.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="seriales">
+                <img data-src="assets/img/serial2.jpg" alt="steam">
+                <h2>Juegos Steam</h2>
+                <p>Key de steam compatibles para el cajeo en la propia pagina.</p>
+                <div class="precio">
+                    <p>$100.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="producto" data-producto="seriales">
+                <img data-src="assets/img/serial3.jpg" alt="office">
+                <h2>Microsoft Office</h2>
+                <p>Key de todos los servicios disponibles en Office, (Word, Excel, PowerPoint...)</p>
+                <div class="precio">
+                    <p>$80.000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Descuentos imperdibles todos los dias!</h2>
+            <p>Hasta del 50%</p>
+            <a href="https://www.mercadolibre.com.co/" class="btn btn-morado">Comprar ahora</a>
+        </div>
+    </div>
+
+    <section class="ubicacion contenedor">
+        <h2>Ubicacion</h2>
+        <div class="contenido-ubicacion">
+            <div class="texto-ubicacion">
+                <h3>Centro comercial Santafe de Bogota, Autopista 180 Norte
+                </h3>
+                <p>Costado Occidental, Autopista Nte. #45 - 03, Suba, Bogotá.</p>
+                <a href="https://www.google.com/maps/@4.7624642,-74.0476105,16.83z?hl=es" target="_blank" class="btn btn-morado">Maps</a>
+            </div>
+            <div class="imagen-ubicacion">
+                <img data-src="/assets/img/map.png" alt="ubicacion">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Formato de contacto</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Local 4, Plaza Colombia.</p>
+            <p><i class="fas fa-envelope"></i> porciacaso79@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> +57 314 4470213</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Apellidos" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+57 356 689 2573" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <a href="Enviar" class="btn btn-morado">Enviar</a>
+            </div>
+
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Autopista Nte. #45 - 03, Suba, Bogotá.</p>
+            </div>
+            <div class="info">
+                <h3>¡Descuentazos!</h3>
+                <p>Sabados y Jueves 11am - 1pm</p>
+                <p>+57 314 4470213</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Martes - Sabados 10am - 5pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Notificaciones</h3>
+                <p>Envianos tu correo para recibir descuentos que te pueden interesar!</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-morado" value="Enviar">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2022 Portal SysVentas. @SysVentas</p>
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
